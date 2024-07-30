@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using Ferreteria.Modelos;
+using System.Linq;
 
 namespace Ferreteria.Controladores
 {
@@ -12,29 +13,87 @@ namespace Ferreteria.Controladores
         public ControladorCajero()
         {
             cajeros = new List<Cajero>();
+            CargarCajerosDesdeCsv();
         }
 
         public void AgregarCajero(Cajero cajero)
         {
             cajeros.Add(cajero);
-            SaveToCsv(cajero);
+            GuardarCajerosEnCsv();
         }
 
-        private void SaveToCsv(Cajero cajero)
+        public void ActualizarCajero(Cajero cajeroActualizado)
         {
-            // Usa la ruta predeterminada de .NET (directorio de salida de la aplicación)
+            var cajero = cajeros.FirstOrDefault(c => c.CajeroID == cajeroActualizado.CajeroID);
+            if (cajero != null)
+            {
+                cajero.Nombre = cajeroActualizado.Nombre;
+                cajero.Apellido1 = cajeroActualizado.Apellido1;
+                cajero.Apellido2 = cajeroActualizado.Apellido2;
+                cajero.Telefono = cajeroActualizado.Telefono;
+                cajero.CorreoElectronico = cajeroActualizado.CorreoElectronico;
+                GuardarCajerosEnCsv();
+            }
+        }
+
+        public List<Cajero> ObtenerCajeros()
+        {
+            return cajeros;
+        }
+
+        private void GuardarCajerosEnCsv()
+        {
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "cajeros.csv");
 
-            // Verifica si el archivo existe y crea si es necesario
-            bool fileExists = File.Exists(filePath);
-
-            using (StreamWriter writer = new StreamWriter(filePath, true))
+            using (StreamWriter writer = new StreamWriter(filePath, false))
             {
-                if (!fileExists)
+                writer.WriteLine("CajeroID,Nombre,Apellido1,Apellido2,Telefono,CorreoElectronico");
+                foreach (var cajero in cajeros)
                 {
-                    writer.WriteLine("CajeroID,Nombre,Apellido1,Apellido2");
+                    writer.WriteLine($"{cajero.CajeroID},{cajero.Nombre},{cajero.Apellido1},{cajero.Apellido2},{cajero.Telefono},{cajero.CorreoElectronico}");
                 }
-                writer.WriteLine($"{cajero.CajeroID},{cajero.Nombre},{cajero.Apellido1},{cajero.Apellido2}");
+            }
+        }
+
+        private void CargarCajerosDesdeCsv()
+        {
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "cajeros.csv");
+
+            if (File.Exists(filePath))
+            {
+                using (StreamReader reader = new StreamReader(filePath))
+                {
+                    string line;
+                    bool isFirstLine = true;
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        if (isFirstLine)
+                        {
+                            isFirstLine = false;
+                            continue;
+                        }
+
+                        var values = line.Split(',');
+                        if (values.Length == 6)
+                        {
+                            var cajero = new Cajero
+                            {
+                                CajeroID = values[0],
+                                Nombre = values[1],
+                                Apellido1 = values[2],
+                                Apellido2 = values[3],
+                                Telefono = values[4],
+                                CorreoElectronico = values[5]
+                            };
+                            cajeros.Add(cajero);
+                        }
+                        else
+                        {
+                            // Log or handle the error of incorrect CSV format
+                            Console.WriteLine($"Skipping invalid line: {line}");
+                        }
+                    }
+                }
             }
         }
     }

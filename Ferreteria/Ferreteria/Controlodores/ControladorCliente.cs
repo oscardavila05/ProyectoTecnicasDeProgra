@@ -1,9 +1,8 @@
-﻿// Ferreteria/Controladores/ControladorCliente.cs
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using Ferreteria.Modelos;
-using System.Windows.Forms;
+using System.Linq;
 
 namespace Ferreteria.Controladores
 {
@@ -14,32 +13,79 @@ namespace Ferreteria.Controladores
         public ControladorCliente()
         {
             clientes = new List<Cliente>();
+            CargarClientesDesdeCsv();
         }
 
         public void AgregarCliente(Cliente cliente)
         {
             clientes.Add(cliente);
-            SaveToCsv(cliente);
+            GuardarClientesEnCsv();
         }
 
-        private void SaveToCsv(Cliente cliente)
+        public void ActualizarCliente(Cliente clienteActualizado)
         {
-            // Usa la ruta predeterminada de .NET (directorio de salida de la aplicación)
+            var cliente = clientes.FirstOrDefault(c => c.ClienteID == clienteActualizado.ClienteID);
+            if (cliente != null)
+            {
+                cliente.Nombre = clienteActualizado.Nombre;
+                cliente.Apellido1 = clienteActualizado.Apellido1;
+                cliente.Apellido2 = clienteActualizado.Apellido2;
+                cliente.Telefono = clienteActualizado.Telefono;
+                cliente.CorreoElectronico = clienteActualizado.CorreoElectronico;
+                GuardarClientesEnCsv();
+            }
+        }
+
+        public List<Cliente> ObtenerClientes()
+        {
+            return clientes;
+        }
+
+        private void GuardarClientesEnCsv()
+        {
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "clientes.csv");
 
-            // Verifica si el archivo existe y crea si es necesario
-            bool fileExists = File.Exists(filePath);
-
-            using (StreamWriter writer = new StreamWriter(filePath, true))
+            using (StreamWriter writer = new StreamWriter(filePath, false))
             {
-                if (!fileExists)
+                writer.WriteLine("ClienteID,Nombre,Apellido1,Apellido2,Telefono,CorreoElectronico");
+                foreach (var cliente in clientes)
                 {
-                    writer.WriteLine("ClienteID,Nombre,Apellido1,Apellido2,Telefono,CorreoElectronico");
+                    writer.WriteLine($"{cliente.ClienteID},{cliente.Nombre},{cliente.Apellido1},{cliente.Apellido2},{cliente.Telefono},{cliente.CorreoElectronico}");
                 }
-                writer.WriteLine($"{cliente.ClienteID},{cliente.Nombre},{cliente.Apellido1},{cliente.Apellido2},{cliente.Telefono},{cliente.CorreoElectronico}");
             }
+        }
 
-            MessageBox.Show("El archivo CSV se ha creado/actualizado correctamente.");
+        private void CargarClientesDesdeCsv()
+        {
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "clientes.csv");
+
+            if (File.Exists(filePath))
+            {
+                using (StreamReader reader = new StreamReader(filePath))
+                {
+                    string line;
+                    bool isFirstLine = true;
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        if (isFirstLine)
+                        {
+                            isFirstLine = false;
+                            continue;
+                        }
+                        var values = line.Split(',');
+                        var cliente = new Cliente
+                        {
+                            ClienteID = values[0],
+                            Nombre = values[1],
+                            Apellido1 = values[2],
+                            Apellido2 = values[3],
+                            Telefono = values[4],
+                            CorreoElectronico = values[5]
+                        };
+                        clientes.Add(cliente);
+                    }
+                }
+            }
         }
     }
 }

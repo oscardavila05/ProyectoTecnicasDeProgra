@@ -1,1 +1,2 @@
-1,Caja de Herramientas,Yale,1200,2000,50,True
+ProductoId,Nombre,Marca,PrecioCompra,PrecioVenta,Stock,Estado
+1,Llave,Yale,1200,2000,50,True
