@@ -23,201 +23,200 @@
 
         private void InitializeComponent()
         {
-            this.txtProductoId = new System.Windows.Forms.TextBox();
-            this.txtNombreProducto = new System.Windows.Forms.TextBox();
-            this.txtMarcaProducto = new System.Windows.Forms.TextBox();
-            this.txtPrecioCompraProducto = new System.Windows.Forms.TextBox();
-            this.txtPrecioVentaProducto = new System.Windows.Forms.TextBox();
-            this.txtStockProducto = new System.Windows.Forms.TextBox();
-            this.chkEstadoProducto = new System.Windows.Forms.CheckBox();
-            this.btnSubmitProducto = new System.Windows.Forms.Button();
-            this.dgvProductos = new System.Windows.Forms.DataGridView();
-            this.btnUpdateProducto = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).BeginInit();
-            this.SuspendLayout();
+            txtProductoId = new TextBox();
+            txtNombreProducto = new TextBox();
+            txtMarcaProducto = new TextBox();
+            txtPrecioCompraProducto = new TextBox();
+            txtPrecioVentaProducto = new TextBox();
+            txtStockProducto = new TextBox();
+            chkEstadoProducto = new CheckBox();
+            btnSubmitProducto = new Button();
+            dgvProductos = new DataGridView();
+            btnUpdateProducto = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
+            label7 = new Label();
+            ((System.ComponentModel.ISupportInitialize)dgvProductos).BeginInit();
+            SuspendLayout();
             // 
             // txtProductoId
             // 
-            this.txtProductoId.Location = new System.Drawing.Point(150, 12);
-            this.txtProductoId.Name = "txtProductoId";
-            this.txtProductoId.Size = new System.Drawing.Size(178, 27);
-            this.txtProductoId.TabIndex = 0;
+            txtProductoId.Location = new Point(150, 12);
+            txtProductoId.Name = "txtProductoId";
+            txtProductoId.Size = new Size(178, 27);
+            txtProductoId.TabIndex = 0;
             // 
             // txtNombreProducto
             // 
-            this.txtNombreProducto.Location = new System.Drawing.Point(150, 45);
-            this.txtNombreProducto.Name = "txtNombreProducto";
-            this.txtNombreProducto.Size = new System.Drawing.Size(178, 27);
-            this.txtNombreProducto.TabIndex = 1;
+            txtNombreProducto.Location = new Point(150, 45);
+            txtNombreProducto.Name = "txtNombreProducto";
+            txtNombreProducto.Size = new Size(178, 27);
+            txtNombreProducto.TabIndex = 1;
             // 
             // txtMarcaProducto
             // 
-            this.txtMarcaProducto.Location = new System.Drawing.Point(150, 78);
-            this.txtMarcaProducto.Name = "txtMarcaProducto";
-            this.txtMarcaProducto.Size = new System.Drawing.Size(178, 27);
-            this.txtMarcaProducto.TabIndex = 2;
+            txtMarcaProducto.Location = new Point(150, 78);
+            txtMarcaProducto.Name = "txtMarcaProducto";
+            txtMarcaProducto.Size = new Size(178, 27);
+            txtMarcaProducto.TabIndex = 2;
             // 
             // txtPrecioCompraProducto
             // 
-            this.txtPrecioCompraProducto.Location = new System.Drawing.Point(150, 111);
-            this.txtPrecioCompraProducto.Name = "txtPrecioCompraProducto";
-            this.txtPrecioCompraProducto.Size = new System.Drawing.Size(178, 27);
-            this.txtPrecioCompraProducto.TabIndex = 3;
+            txtPrecioCompraProducto.Location = new Point(150, 111);
+            txtPrecioCompraProducto.Name = "txtPrecioCompraProducto";
+            txtPrecioCompraProducto.Size = new Size(178, 27);
+            txtPrecioCompraProducto.TabIndex = 3;
             // 
             // txtPrecioVentaProducto
             // 
-            this.txtPrecioVentaProducto.Location = new System.Drawing.Point(150, 144);
-            this.txtPrecioVentaProducto.Name = "txtPrecioVentaProducto";
-            this.txtPrecioVentaProducto.Size = new System.Drawing.Size(178, 27);
-            this.txtPrecioVentaProducto.TabIndex = 4;
+            txtPrecioVentaProducto.Location = new Point(150, 144);
+            txtPrecioVentaProducto.Name = "txtPrecioVentaProducto";
+            txtPrecioVentaProducto.Size = new Size(178, 27);
+            txtPrecioVentaProducto.TabIndex = 4;
             // 
             // txtStockProducto
             // 
-            this.txtStockProducto.Location = new System.Drawing.Point(150, 177);
-            this.txtStockProducto.Name = "txtStockProducto";
-            this.txtStockProducto.Size = new System.Drawing.Size(178, 27);
-            this.txtStockProducto.TabIndex = 5;
+            txtStockProducto.Location = new Point(150, 177);
+            txtStockProducto.Name = "txtStockProducto";
+            txtStockProducto.Size = new Size(178, 27);
+            txtStockProducto.TabIndex = 5;
             // 
             // chkEstadoProducto
             // 
-            this.chkEstadoProducto.AutoSize = true;
-            this.chkEstadoProducto.Location = new System.Drawing.Point(150, 210);
-            this.chkEstadoProducto.Name = "chkEstadoProducto";
-            this.chkEstadoProducto.Size = new System.Drawing.Size(78, 24);
-            this.chkEstadoProducto.TabIndex = 6;
-            this.chkEstadoProducto.Text = "Estado";
-            this.chkEstadoProducto.UseVisualStyleBackColor = true;
+            chkEstadoProducto.AutoSize = true;
+            chkEstadoProducto.Location = new Point(150, 210);
+            chkEstadoProducto.Name = "chkEstadoProducto";
+            chkEstadoProducto.Size = new Size(76, 24);
+            chkEstadoProducto.TabIndex = 6;
+            chkEstadoProducto.Text = "Estado";
+            chkEstadoProducto.UseVisualStyleBackColor = true;
             // 
             // btnSubmitProducto
             // 
-            this.btnSubmitProducto.Location = new System.Drawing.Point(150, 240);
-            this.btnSubmitProducto.Name = "btnSubmitProducto";
-            this.btnSubmitProducto.Size = new System.Drawing.Size(178, 35);
-            this.btnSubmitProducto.TabIndex = 7;
-            this.btnSubmitProducto.Text = "Agregar Producto";
-            this.btnSubmitProducto.UseVisualStyleBackColor = true;
-            this.btnSubmitProducto.Click += new System.EventHandler(this.btnSubmitProducto_Click);
+            btnSubmitProducto.Location = new Point(150, 240);
+            btnSubmitProducto.Name = "btnSubmitProducto";
+            btnSubmitProducto.Size = new Size(178, 35);
+            btnSubmitProducto.TabIndex = 7;
+            btnSubmitProducto.Text = "Agregar Producto";
+            btnSubmitProducto.UseVisualStyleBackColor = true;
+            btnSubmitProducto.Click += btnSubmitProducto_Click;
             // 
             // dgvProductos
             // 
-            this.dgvProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvProductos.Location = new System.Drawing.Point(12, 290);
-            this.dgvProductos.Name = "dgvProductos";
-            this.dgvProductos.RowHeadersWidth = 51;
-            this.dgvProductos.RowTemplate.Height = 29;
-            this.dgvProductos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvProductos.Size = new System.Drawing.Size(400, 200);
-            this.dgvProductos.TabIndex = 8;
-            this.dgvProductos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProductos_CellClick);
+            dgvProductos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvProductos.Location = new Point(12, 290);
+            dgvProductos.Name = "dgvProductos";
+            dgvProductos.RowHeadersWidth = 51;
+            dgvProductos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvProductos.Size = new Size(858, 200);
+            dgvProductos.TabIndex = 8;
+            dgvProductos.CellClick += dgvProductos_CellClick;
             // 
             // btnUpdateProducto
             // 
-            this.btnUpdateProducto.Location = new System.Drawing.Point(150, 500);
-            this.btnUpdateProducto.Name = "btnUpdateProducto";
-            this.btnUpdateProducto.Size = new System.Drawing.Size(178, 35);
-            this.btnUpdateProducto.TabIndex = 9;
-            this.btnUpdateProducto.Text = "Actualizar Producto";
-            this.btnUpdateProducto.UseVisualStyleBackColor = true;
-            this.btnUpdateProducto.Click += new System.EventHandler(this.btnUpdateProducto_Click);
+            btnUpdateProducto.Location = new Point(150, 500);
+            btnUpdateProducto.Name = "btnUpdateProducto";
+            btnUpdateProducto.Size = new Size(178, 35);
+            btnUpdateProducto.TabIndex = 9;
+            btnUpdateProducto.Text = "Actualizar Producto";
+            btnUpdateProducto.UseVisualStyleBackColor = true;
+            btnUpdateProducto.Click += btnUpdateProducto_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 20);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Producto ID:";
+            label1.AutoSize = true;
+            label1.Location = new Point(12, 15);
+            label1.Name = "label1";
+            label1.Size = new Size(91, 20);
+            label1.TabIndex = 10;
+            label1.Text = "Producto ID:";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 48);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 20);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "Nombre:";
+            label2.AutoSize = true;
+            label2.Location = new Point(12, 48);
+            label2.Name = "label2";
+            label2.Size = new Size(67, 20);
+            label2.TabIndex = 11;
+            label2.Text = "Nombre:";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 81);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 20);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Marca:";
+            label3.AutoSize = true;
+            label3.Location = new Point(12, 81);
+            label3.Name = "label3";
+            label3.Size = new Size(53, 20);
+            label3.TabIndex = 12;
+            label3.Text = "Marca:";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 114);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(104, 20);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "Precio Compra:";
+            label4.AutoSize = true;
+            label4.Location = new Point(12, 114);
+            label4.Name = "label4";
+            label4.Size = new Size(110, 20);
+            label4.TabIndex = 13;
+            label4.Text = "Precio Compra:";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 147);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(88, 20);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "Precio Venta:";
+            label5.AutoSize = true;
+            label5.Location = new Point(12, 147);
+            label5.Name = "label5";
+            label5.Size = new Size(94, 20);
+            label5.TabIndex = 14;
+            label5.Text = "Precio Venta:";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 180);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 20);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "Stock:";
+            label6.AutoSize = true;
+            label6.Location = new Point(12, 180);
+            label6.Name = "label6";
+            label6.Size = new Size(48, 20);
+            label6.TabIndex = 15;
+            label6.Text = "Stock:";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 213);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(58, 20);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Estado:";
+            label7.AutoSize = true;
+            label7.Location = new Point(12, 213);
+            label7.Name = "label7";
+            label7.Size = new Size(57, 20);
+            label7.TabIndex = 16;
+            label7.Text = "Estado:";
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(424, 552);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnUpdateProducto);
-            this.Controls.Add(this.dgvProductos);
-            this.Controls.Add(this.btnSubmitProducto);
-            this.Controls.Add(this.chkEstadoProducto);
-            this.Controls.Add(this.txtStockProducto);
-            this.Controls.Add(this.txtPrecioVentaProducto);
-            this.Controls.Add(this.txtPrecioCompraProducto);
-            this.Controls.Add(this.txtMarcaProducto);
-            this.Controls.Add(this.txtNombreProducto);
-            this.Controls.Add(this.txtProductoId);
-            this.Name = "Form3";
-            this.Text = "Formulario de Producto";
-            this.Load += new System.EventHandler(this.Form3_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(882, 552);
+            Controls.Add(label7);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(btnUpdateProducto);
+            Controls.Add(dgvProductos);
+            Controls.Add(btnSubmitProducto);
+            Controls.Add(chkEstadoProducto);
+            Controls.Add(txtStockProducto);
+            Controls.Add(txtPrecioVentaProducto);
+            Controls.Add(txtPrecioCompraProducto);
+            Controls.Add(txtMarcaProducto);
+            Controls.Add(txtNombreProducto);
+            Controls.Add(txtProductoId);
+            Name = "Form3";
+            Text = "Formulario de Producto";
+            Load += Form3_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvProductos).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
     }
 }

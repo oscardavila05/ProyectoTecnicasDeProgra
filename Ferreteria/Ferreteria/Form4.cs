@@ -8,6 +8,7 @@ namespace Ferreteria
         private Form1 form1;  // Suponiendo que Form1 es el formulario de Cajero
         private Form2 form2;  // Suponiendo que Form2 es el formulario de Cliente
         private Form3 form3;  // Suponiendo que Form3 es el formulario de Producto
+        private Form5 form5;  // Suponiendo que Form5 es el formulario de Ventas
 
         /// <summary>
         /// Constructor del formulario Form4. Inicializa los componentes y los formularios.
@@ -19,7 +20,7 @@ namespace Ferreteria
         }
 
         /// <summary>
-        /// Inicializa los formularios Cajero, Cliente y Producto y los agrega a los TabPages.
+        /// Inicializa los formularios Cajero, Cliente, Producto y Ventas y los agrega a los TabPages.
         /// </summary>
         private void InicializarFormularios()
         {
@@ -27,6 +28,7 @@ namespace Ferreteria
             form1 = new Form1();  // Form1 se usa para Cajero
             form2 = new Form2();  // Form2 se usa para Cliente
             form3 = new Form3();  // Form3 se usa para Producto
+            form5 = new Form5();  // Form5 se usa para Ventas
 
             // Agregar los formularios a las pestañas del TabControl solo si no están ya presentes
             if (tabControlForms.TabPages.Count == 0)
@@ -34,6 +36,7 @@ namespace Ferreteria
                 AgregarFormularioATabPage(form1, "Cajero");
                 AgregarFormularioATabPage(form2, "Cliente");
                 AgregarFormularioATabPage(form3, "Producto");
+                AgregarFormularioATabPage(form5, "Registrar Ventas");
             }
         }
 

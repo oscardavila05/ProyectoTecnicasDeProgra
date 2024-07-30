@@ -21,178 +21,177 @@
 
         private void InitializeComponent()
         {
-            this.txtCajeroID = new System.Windows.Forms.TextBox();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.txtApellido1 = new System.Windows.Forms.TextBox();
-            this.txtApellido2 = new System.Windows.Forms.TextBox();
-            this.txtTelefono = new System.Windows.Forms.TextBox();
-            this.txtCorreoElectronico = new System.Windows.Forms.TextBox();
-            this.btnSubmitCajero = new System.Windows.Forms.Button();
-            this.dgvCajeros = new System.Windows.Forms.DataGridView();
-            this.btnUpdateCajero = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCajeros)).BeginInit();
-            this.SuspendLayout();
+            txtCajeroID = new TextBox();
+            txtNombre = new TextBox();
+            txtApellido1 = new TextBox();
+            txtApellido2 = new TextBox();
+            txtTelefono = new TextBox();
+            txtCorreoElectronico = new TextBox();
+            btnSubmitCajero = new Button();
+            dgvCajeros = new DataGridView();
+            btnUpdateCajero = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
+            ((System.ComponentModel.ISupportInitialize)dgvCajeros).BeginInit();
+            SuspendLayout();
             // 
             // txtCajeroID
             // 
-            this.txtCajeroID.Location = new System.Drawing.Point(150, 12);
-            this.txtCajeroID.Name = "txtCajeroID";
-            this.txtCajeroID.Size = new System.Drawing.Size(178, 27);
-            this.txtCajeroID.TabIndex = 0;
+            txtCajeroID.Location = new Point(150, 12);
+            txtCajeroID.Name = "txtCajeroID";
+            txtCajeroID.Size = new Size(178, 27);
+            txtCajeroID.TabIndex = 0;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(150, 45);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(178, 27);
-            this.txtNombre.TabIndex = 1;
+            txtNombre.Location = new Point(150, 45);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(178, 27);
+            txtNombre.TabIndex = 1;
             // 
             // txtApellido1
             // 
-            this.txtApellido1.Location = new System.Drawing.Point(150, 78);
-            this.txtApellido1.Name = "txtApellido1";
-            this.txtApellido1.Size = new System.Drawing.Size(178, 27);
-            this.txtApellido1.TabIndex = 2;
+            txtApellido1.Location = new Point(150, 78);
+            txtApellido1.Name = "txtApellido1";
+            txtApellido1.Size = new Size(178, 27);
+            txtApellido1.TabIndex = 2;
             // 
             // txtApellido2
             // 
-            this.txtApellido2.Location = new System.Drawing.Point(150, 111);
-            this.txtApellido2.Name = "txtApellido2";
-            this.txtApellido2.Size = new System.Drawing.Size(178, 27);
-            this.txtApellido2.TabIndex = 3;
+            txtApellido2.Location = new Point(150, 111);
+            txtApellido2.Name = "txtApellido2";
+            txtApellido2.Size = new Size(178, 27);
+            txtApellido2.TabIndex = 3;
             // 
             // txtTelefono
             // 
-            this.txtTelefono.Location = new System.Drawing.Point(150, 144);
-            this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(178, 27);
-            this.txtTelefono.TabIndex = 4;
+            txtTelefono.Location = new Point(150, 144);
+            txtTelefono.Name = "txtTelefono";
+            txtTelefono.Size = new Size(178, 27);
+            txtTelefono.TabIndex = 4;
             // 
             // txtCorreoElectronico
             // 
-            this.txtCorreoElectronico.Location = new System.Drawing.Point(150, 177);
-            this.txtCorreoElectronico.Name = "txtCorreoElectronico";
-            this.txtCorreoElectronico.Size = new System.Drawing.Size(178, 27);
-            this.txtCorreoElectronico.TabIndex = 5;
+            txtCorreoElectronico.Location = new Point(150, 177);
+            txtCorreoElectronico.Name = "txtCorreoElectronico";
+            txtCorreoElectronico.Size = new Size(178, 27);
+            txtCorreoElectronico.TabIndex = 5;
             // 
             // btnSubmitCajero
             // 
-            this.btnSubmitCajero.Location = new System.Drawing.Point(150, 210);
-            this.btnSubmitCajero.Name = "btnSubmitCajero";
-            this.btnSubmitCajero.Size = new System.Drawing.Size(178, 35);
-            this.btnSubmitCajero.TabIndex = 6;
-            this.btnSubmitCajero.Text = "Agregar Cajero";
-            this.btnSubmitCajero.UseVisualStyleBackColor = true;
-            this.btnSubmitCajero.Click += new System.EventHandler(this.btnSubmitCajero_Click);
+            btnSubmitCajero.Location = new Point(150, 210);
+            btnSubmitCajero.Name = "btnSubmitCajero";
+            btnSubmitCajero.Size = new Size(178, 35);
+            btnSubmitCajero.TabIndex = 6;
+            btnSubmitCajero.Text = "Agregar Cajero";
+            btnSubmitCajero.UseVisualStyleBackColor = true;
+            btnSubmitCajero.Click += btnSubmitCajero_Click;
             // 
             // dgvCajeros
             // 
-            this.dgvCajeros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCajeros.Location = new System.Drawing.Point(12, 255);
-            this.dgvCajeros.Name = "dgvCajeros";
-            this.dgvCajeros.RowHeadersWidth = 51;
-            this.dgvCajeros.RowTemplate.Height = 29;
-            this.dgvCajeros.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvCajeros.Size = new System.Drawing.Size(400, 200);
-            this.dgvCajeros.TabIndex = 7;
-            this.dgvCajeros.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCajeros_CellClick);
+            dgvCajeros.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvCajeros.Location = new Point(12, 255);
+            dgvCajeros.Name = "dgvCajeros";
+            dgvCajeros.RowHeadersWidth = 51;
+            dgvCajeros.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvCajeros.Size = new Size(826, 200);
+            dgvCajeros.TabIndex = 7;
+            dgvCajeros.CellClick += dgvCajeros_CellClick;
             // 
             // btnUpdateCajero
             // 
-            this.btnUpdateCajero.Location = new System.Drawing.Point(150, 470);
-            this.btnUpdateCajero.Name = "btnUpdateCajero";
-            this.btnUpdateCajero.Size = new System.Drawing.Size(178, 35);
-            this.btnUpdateCajero.TabIndex = 8;
-            this.btnUpdateCajero.Text = "Actualizar Cajero";
-            this.btnUpdateCajero.UseVisualStyleBackColor = true;
-            this.btnUpdateCajero.Click += new System.EventHandler(this.btnUpdateCajero_Click);
+            btnUpdateCajero.Location = new Point(150, 470);
+            btnUpdateCajero.Name = "btnUpdateCajero";
+            btnUpdateCajero.Size = new Size(178, 35);
+            btnUpdateCajero.TabIndex = 8;
+            btnUpdateCajero.Text = "Actualizar Cajero";
+            btnUpdateCajero.UseVisualStyleBackColor = true;
+            btnUpdateCajero.Click += btnUpdateCajero_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 20);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Cajero ID:";
+            label1.AutoSize = true;
+            label1.Location = new Point(12, 15);
+            label1.Name = "label1";
+            label1.Size = new Size(74, 20);
+            label1.TabIndex = 9;
+            label1.Text = "Cajero ID:";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 48);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 20);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Nombre:";
+            label2.AutoSize = true;
+            label2.Location = new Point(12, 48);
+            label2.Name = "label2";
+            label2.Size = new Size(67, 20);
+            label2.TabIndex = 10;
+            label2.Text = "Nombre:";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 81);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 20);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "Apellido 1:";
+            label3.AutoSize = true;
+            label3.Location = new Point(12, 81);
+            label3.Name = "label3";
+            label3.Size = new Size(81, 20);
+            label3.TabIndex = 11;
+            label3.Text = "Apellido 1:";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 114);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(76, 20);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "Apellido 2:";
+            label4.AutoSize = true;
+            label4.Location = new Point(12, 114);
+            label4.Name = "label4";
+            label4.Size = new Size(81, 20);
+            label4.TabIndex = 12;
+            label4.Text = "Apellido 2:";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 147);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 20);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "Teléfono:";
+            label5.AutoSize = true;
+            label5.Location = new Point(12, 147);
+            label5.Name = "label5";
+            label5.Size = new Size(70, 20);
+            label5.TabIndex = 13;
+            label5.Text = "Teléfono:";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 180);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(140, 20);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "Correo Electrónico:";
+            label6.AutoSize = true;
+            label6.Location = new Point(12, 180);
+            label6.Name = "label6";
+            label6.Size = new Size(135, 20);
+            label6.TabIndex = 14;
+            label6.Text = "Correo Electrónico:";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(424, 517);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnUpdateCajero);
-            this.Controls.Add(this.dgvCajeros);
-            this.Controls.Add(this.btnSubmitCajero);
-            this.Controls.Add(this.txtCorreoElectronico);
-            this.Controls.Add(this.txtTelefono);
-            this.Controls.Add(this.txtApellido2);
-            this.Controls.Add(this.txtApellido1);
-            this.Controls.Add(this.txtNombre);
-            this.Controls.Add(this.txtCajeroID);
-            this.Name = "Form1";
-            this.Text = "Formulario de Cajero";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCajeros)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(850, 517);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(btnUpdateCajero);
+            Controls.Add(dgvCajeros);
+            Controls.Add(btnSubmitCajero);
+            Controls.Add(txtCorreoElectronico);
+            Controls.Add(txtTelefono);
+            Controls.Add(txtApellido2);
+            Controls.Add(txtApellido1);
+            Controls.Add(txtNombre);
+            Controls.Add(txtCajeroID);
+            Name = "Form1";
+            Text = "Formulario de Cajero";
+            Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvCajeros).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
     }
 }

@@ -37,3 +37,4 @@ C:\Users\jhoel\OneDrive\Escritorio\ProyectoTecnicasDeProgra\Ferreteria\Ferreteri
 C:\Users\jhoel\OneDrive\Escritorio\ProyectoTecnicasDeProgra\Ferreteria\Ferreteria\obj\Debug\net8.0-windows\Ferreteria.genruntimeconfig.cache
 C:\Users\jhoel\OneDrive\Escritorio\ProyectoTecnicasDeProgra\Ferreteria\Ferreteria\obj\Debug\net8.0-windows\ref\Ferreteria.dll
 C:\Users\jhoel\OneDrive\Escritorio\ProyectoTecnicasDeProgra\Ferreteria\Ferreteria\obj\Debug\net8.0-windows\Ferreteria.Form4.resources
+C:\Users\jhoel\OneDrive\Escritorio\ProyectoTecnicasDeProgra\Ferreteria\Ferreteria\obj\Debug\net8.0-windows\Ferreteria.Form5.resources
