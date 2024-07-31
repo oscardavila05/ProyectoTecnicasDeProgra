@@ -11,6 +11,7 @@
         private System.Windows.Forms.Label labelProductoID;
         private System.Windows.Forms.Label labelCantidad;
         private System.Windows.Forms.Label labelTotal;
+        private System.Windows.Forms.Button btnActualizarVenta;
 
         private void InitializeComponent()
         {
@@ -18,36 +19,33 @@
             this.txtCantidad = new System.Windows.Forms.TextBox();
             this.txtTotal = new System.Windows.Forms.TextBox();
             this.btnRegistrarVenta = new System.Windows.Forms.Button();
+            this.btnActualizarVenta = new System.Windows.Forms.Button();
             this.dgvVentas = new System.Windows.Forms.DataGridView();
             this.labelProductoID = new System.Windows.Forms.Label();
             this.labelCantidad = new System.Windows.Forms.Label();
             this.labelTotal = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVentas)).BeginInit();
             this.SuspendLayout();
-            // 
+
             // txtProductoID
-            // 
             this.txtProductoID.Location = new System.Drawing.Point(150, 12);
             this.txtProductoID.Name = "txtProductoID";
             this.txtProductoID.Size = new System.Drawing.Size(178, 27);
             this.txtProductoID.TabIndex = 0;
-            // 
+
             // txtCantidad
-            // 
             this.txtCantidad.Location = new System.Drawing.Point(150, 45);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(178, 27);
             this.txtCantidad.TabIndex = 1;
-            // 
+
             // txtTotal
-            // 
             this.txtTotal.Location = new System.Drawing.Point(150, 78);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(178, 27);
             this.txtTotal.TabIndex = 2;
-            // 
+
             // btnRegistrarVenta
-            // 
             this.btnRegistrarVenta.Location = new System.Drawing.Point(150, 111);
             this.btnRegistrarVenta.Name = "btnRegistrarVenta";
             this.btnRegistrarVenta.Size = new System.Drawing.Size(178, 35);
@@ -55,54 +53,60 @@
             this.btnRegistrarVenta.Text = "Registrar Venta";
             this.btnRegistrarVenta.UseVisualStyleBackColor = true;
             this.btnRegistrarVenta.Click += new System.EventHandler(this.btnRegistrarVenta_Click);
-            // 
+
+            // btnActualizarVenta
+            this.btnActualizarVenta.Location = new System.Drawing.Point(150, 152);
+            this.btnActualizarVenta.Name = "btnActualizarVenta";
+            this.btnActualizarVenta.Size = new System.Drawing.Size(178, 35);
+            this.btnActualizarVenta.TabIndex = 4;
+            this.btnActualizarVenta.Text = "Actualizar Venta";
+            this.btnActualizarVenta.UseVisualStyleBackColor = true;
+            this.btnActualizarVenta.Click += new System.EventHandler(this.btnActualizarVenta_Click);
+
             // dgvVentas
-            // 
             this.dgvVentas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvVentas.Location = new System.Drawing.Point(12, 160);
+            this.dgvVentas.Location = new System.Drawing.Point(12, 200);
             this.dgvVentas.Name = "dgvVentas";
             this.dgvVentas.RowHeadersWidth = 51;
             this.dgvVentas.RowTemplate.Height = 29;
             this.dgvVentas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvVentas.Size = new System.Drawing.Size(400, 200);
-            this.dgvVentas.TabIndex = 4;
-            // 
+            this.dgvVentas.TabIndex = 5;
+            this.dgvVentas.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvVentas_CellClick);
+
             // labelProductoID
-            // 
             this.labelProductoID.AutoSize = true;
             this.labelProductoID.Location = new System.Drawing.Point(12, 15);
             this.labelProductoID.Name = "labelProductoID";
             this.labelProductoID.Size = new System.Drawing.Size(83, 20);
-            this.labelProductoID.TabIndex = 5;
+            this.labelProductoID.TabIndex = 6;
             this.labelProductoID.Text = "Producto ID:";
-            // 
+
             // labelCantidad
-            // 
             this.labelCantidad.AutoSize = true;
             this.labelCantidad.Location = new System.Drawing.Point(12, 48);
             this.labelCantidad.Name = "labelCantidad";
             this.labelCantidad.Size = new System.Drawing.Size(71, 20);
-            this.labelCantidad.TabIndex = 6;
+            this.labelCantidad.TabIndex = 7;
             this.labelCantidad.Text = "Cantidad:";
-            // 
+
             // labelTotal
-            // 
             this.labelTotal.AutoSize = true;
             this.labelTotal.Location = new System.Drawing.Point(12, 81);
             this.labelTotal.Name = "labelTotal";
             this.labelTotal.Size = new System.Drawing.Size(43, 20);
-            this.labelTotal.TabIndex = 7;
+            this.labelTotal.TabIndex = 8;
             this.labelTotal.Text = "Total:";
-            // 
+
             // Form5
-            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(424, 372);
+            this.ClientSize = new System.Drawing.Size(424, 412);
             this.Controls.Add(this.labelTotal);
             this.Controls.Add(this.labelCantidad);
             this.Controls.Add(this.labelProductoID);
             this.Controls.Add(this.dgvVentas);
+            this.Controls.Add(this.btnActualizarVenta);
             this.Controls.Add(this.btnRegistrarVenta);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.txtCantidad);

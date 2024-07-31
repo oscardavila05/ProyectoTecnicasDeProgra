@@ -1,3 +1,4 @@
 ProductoId,Nombre,Marca,PrecioCompra,PrecioVenta,Stock,Estado
 1,candado,yale,1000,2000,50,True
-1,candado,yale,1000,2000,50,False
+1,candado,yale,1000,2000,50,True
+2,llaves,patito,2000,5000,55,True

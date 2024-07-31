@@ -3,125 +3,126 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 using Ferreteria.Modelos;
-using System.IO;
+using Ferreteria.Controladores;
 
 namespace Ferreteria
 {
     public partial class Form5 : Form
     {
-        private List<Venta> ventas;
-
+        private ControladorVenta controladorVenta;
         /// <summary>
-        /// Constructor del formulario Form5. Inicializa los componentes y carga las ventas.
+        /// inicia los componetes y el controlador  
         /// </summary>
         public Form5()
         {
             InitializeComponent();
-            ventas = new List<Venta>();
+            controladorVenta = new ControladorVenta();
         }
 
         /// <summary>
-        /// Carga las ventas desde el archivo CSV cuando se carga el formulario.
+        /// carga las ventas desde el csv
         /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Form5_Load(object sender, EventArgs e)
         {
-            CargarVentasDesdeCsv();
-            ActualizarDataGridView();
+            CargarVentas();
         }
 
+
         /// <summary>
-        /// Registra una venta y guarda la información en un archivo CSV.
+        /// se registra la venta
         /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnRegistrarVenta_Click(object sender, EventArgs e)
         {
             try
             {
-                var venta = new Venta
+                Venta venta = new Venta
                 {
                     ProductoID = txtProductoID.Text,
                     Cantidad = int.Parse(txtCantidad.Text),
                     Total = decimal.Parse(txtTotal.Text)
                 };
 
-                ventas.Add(venta);
-                GuardarVentasEnCsv();
-                ActualizarDataGridView();
-                MessageBox.Show("Venta registrada correctamente.");
+                controladorVenta.AgregarVenta(venta);
+                CargarVentas();
+                LimpiarCampos();
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Error al registrar la venta: {ex.Message}");
             }
         }
-
         /// <summary>
-        /// Actualiza el DataGridView con la lista de ventas.
+        /// boton para actualizar info
         /// </summary>
-        private void ActualizarDataGridView()
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnActualizarVenta_Click(object sender, EventArgs e)
         {
-            dgvVentas.DataSource = null;
-            dgvVentas.DataSource = ventas;
-        }
-
-        /// <summary>
-        /// Guarda la lista de ventas en un archivo CSV.
-        /// </summary>
-        private void GuardarVentasEnCsv()
-        {
-            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ventas.csv");
-
-            using (StreamWriter writer = new StreamWriter(filePath, false))
+            if (dgvVentas.SelectedRows.Count > 0)
             {
-                writer.WriteLine("ProductoID,Cantidad,Total");
-                foreach (var venta in ventas)
+                try
                 {
-                    writer.WriteLine($"{venta.ProductoID},{venta.Cantidad},{venta.Total}");
-                }
-            }
-        }
-
-        /// <summary>
-        /// Carga las ventas desde un archivo CSV.
-        /// </summary>
-        private void CargarVentasDesdeCsv()
-        {
-            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ventas.csv");
-
-            if (File.Exists(filePath))
-            {
-                using (StreamReader reader = new StreamReader(filePath))
-                {
-                    string line;
-                    bool isFirstLine = true;
-                    while ((line = reader.ReadLine()) != null)
+                    int ventaID = (int)dgvVentas.SelectedRows[0].Cells["VentaID"].Value;
+                    Venta venta = new Venta
                     {
-                        if (isFirstLine)
-                        {
-                            isFirstLine = false;
-                            continue;
-                        }
+                        VentaID = ventaID,
+                        ProductoID = txtProductoID.Text,
+                        Cantidad = int.Parse(txtCantidad.Text),
+                        Total = decimal.Parse(txtTotal.Text)
+                    };
 
-                        var values = line.Split(',');
-                        var venta = new Venta
-                        {
-                            ProductoID = values[0],
-                            Cantidad = int.Parse(values[1]),
-                            Total = decimal.Parse(values[2])
-                        };
-                        ventas.Add(venta);
-                    }
+                    controladorVenta.ActualizarVenta(venta);
+                    CargarVentas();
+                    LimpiarCampos();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error al actualizar la venta: {ex.Message}");
                 }
             }
+            else
+            {
+                MessageBox.Show("Seleccione una venta para actualizar.");
+            }
         }
-    }
 
-    /// <summary>
-    /// Clase que representa una venta de producto.
-    /// </summary>
-    public class Venta
-    {
-        public string ProductoID { get; set; }
-        public int Cantidad { get; set; }
-        public decimal Total { get; set; }
+        /// <summary>
+        /// carga las celdas al tocar cada venta en el grid
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void dgvVentas_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dgvVentas.Rows[e.RowIndex];
+                txtProductoID.Text = row.Cells["ProductoID"].Value.ToString();
+                txtCantidad.Text = row.Cells["Cantidad"].Value.ToString();
+                txtTotal.Text = row.Cells["Total"].Value.ToString();
+            }
+        }
+
+        /// <summary>
+        /// obtiene la lista ventas del csv
+        /// </summary>
+        private void CargarVentas()
+        {
+            var ventas = controladorVenta.ObtenerVentas();
+            dgvVentas.DataSource = ventas.Select(v => new { v.VentaID, v.ProductoID, v.Cantidad, v.Total }).ToList();
+        }
+
+        /// <summary>
+        /// limpia los campos
+        /// </summary>
+        private void LimpiarCampos()
+        {
+            txtProductoID.Clear();
+            txtCantidad.Clear();
+            txtTotal.Clear();
+        }
     }
 }
