@@ -24,11 +24,11 @@ namespace Ferreteria
         /// </summary>
         private void InicializarFormularios()
         {
-            // Inicializar los formularios
-            form1 = new Form1();  // Form1 se usa para Cajero
-            form2 = new Form2();  // Form2 se usa para Cliente
-            form3 = new Form3();  // Form3 se usa para Producto
-            form5 = new Form5();  // Form5 se usa para Ventas
+            
+            form1 = new Form1();  
+            form2 = new Form2();  
+            form3 = new Form3();  
+            form5 = new Form5();  
 
             // Agregar los formularios a las pestañas del TabControl solo si no están ya presentes
             if (tabControlForms.TabPages.Count == 0)
@@ -58,8 +58,12 @@ namespace Ferreteria
 
         private void Form4_Load(object sender, EventArgs e)
         {
-            // Inicializar los formularios en el evento Load del formulario principal
-            // Esta línea puede ser redundante si ya se inicializan en el constructor.
+            
+        }
+
+        private void tabControlForms_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

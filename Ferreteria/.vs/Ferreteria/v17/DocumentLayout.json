@@ -1,94 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\",
+  "WorkspaceRootPath": "C:\\Users\\jhoel\\OneDrive\\Documentos\\ProyectoTecnicasDeProgra\\Ferreteria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\escritorio\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\form5.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\form5.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\escritorio\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\escritorio\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\ferreteria\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\ferreteria\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\ferreteria\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\ferreteria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\escritorio\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\documentos\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\escritorio\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\escritorio\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\documentos\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\escritorio\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\escritorio\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\controlodores\\controladorcajero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\controlodores\\controladorcajero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\escritorio\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\escritorio\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\modelos\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\modelos\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\escritorio\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\modelos\\cajero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\modelos\\cajero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\escritorio\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\escritorio\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\controlodores\\controladorproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\controlodores\\controladorproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\escritorio\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\escritorio\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\modelos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\modelos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\escritorio\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\controlodores\\controladorcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\controlodores\\controladorcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\escritorio\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|c:\\users\\jhoel\\onedrive\\escritorio\\proyectotecnicasdeprogra\\ferreteria\\ferreteria\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C079C34-D31A-42F8-ACD6-EAECDBDD2BA5}|Ferreteria\\Ferreteria.csproj|solutionrelative:ferreteria\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,269 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 913,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form5.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form5.Designer.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Form5.Designer.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form5.Designer.cs",
-              "RelativeToolTip": "Ferreteria\\Form5.Designer.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAAAHYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T04:14:00.523Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form5.cs",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form5.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Form5.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form5.cs",
-              "RelativeToolTip": "Ferreteria\\Form5.cs",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAuwH8AAAAAAAAA",
+              "Title": "Form4.cs",
+              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Documentos\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form4.cs",
+              "RelativeDocumentMoniker": "Ferreteria\\Form4.cs",
+              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Documentos\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form4.cs",
+              "RelativeToolTip": "Ferreteria\\Form4.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAADwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T04:13:44.223Z",
+              "WhenOpened": "2024-07-31T02:13:21.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form5.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form5.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Form5.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form5.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Ferreteria\\Form5.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T04:13:41.363Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form4.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form4.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Form4.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form4.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Ferreteria\\Form4.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T03:49:00.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form1.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Form1.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Ferreteria\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T21:31:46.595Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form3.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form3.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Form3.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form3.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Ferreteria\\Form3.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T00:13:19.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form2.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form2.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Form2.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form2.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Ferreteria\\Form2.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T23:48:43.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Form4.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form4.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Documentos\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form4.Designer.cs",
               "RelativeDocumentMoniker": "Ferreteria\\Form4.Designer.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form4.Designer.cs",
+              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Documentos\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form4.Designer.cs",
               "RelativeToolTip": "Ferreteria\\Form4.Designer.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAuwCAAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T03:51:23.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Program.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Program.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Program.cs",
-              "RelativeToolTip": "Ferreteria\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T23:51:22.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form4.cs",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form4.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Form4.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form4.cs",
-              "RelativeToolTip": "Ferreteria\\Form4.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAuwEEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T03:50:50.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form1.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Form1.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form1.cs",
-              "RelativeToolTip": "Ferreteria\\Form1.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAA+wGUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T21:28:51.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form1.Designer.cs",
-              "RelativeToolTip": "Ferreteria\\Form1.Designer.cs",
-              "ViewState": "AQIAALAAAAAAAAAAAAAuwMUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T21:31:00.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ControladorCajero.cs",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Controlodores\\ControladorCajero.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Controlodores\\ControladorCajero.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Controlodores\\ControladorCajero.cs",
-              "RelativeToolTip": "Ferreteria\\Controlodores\\ControladorCajero.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAuwGQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T21:51:20.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Modelos\\Cliente.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Modelos\\Cliente.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Modelos\\Cliente.cs",
-              "RelativeToolTip": "Ferreteria\\Modelos\\Cliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T23:47:11.711Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Cajero.cs",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Modelos\\Cajero.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Modelos\\Cajero.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Modelos\\Cajero.cs",
-              "RelativeToolTip": "Ferreteria\\Modelos\\Cajero.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T21:49:29.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Form3.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form3.Designer.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Form3.Designer.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form3.Designer.cs",
-              "RelativeToolTip": "Ferreteria\\Form3.Designer.cs",
-              "ViewState": "AQIAAMkAAAAAAAAAAAAuwN8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T00:13:45.833Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Form3.cs",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form3.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Form3.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form3.cs",
-              "RelativeToolTip": "Ferreteria\\Form3.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAqwFMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T00:13:36.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Modelos\\Producto.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Modelos\\Producto.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Modelos\\Producto.cs",
-              "RelativeToolTip": "Ferreteria\\Modelos\\Producto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T00:10:47.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ControladorProducto.cs",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Controlodores\\ControladorProducto.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Controlodores\\ControladorProducto.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Controlodores\\ControladorProducto.cs",
-              "RelativeToolTip": "Ferreteria\\Controlodores\\ControladorProducto.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAAAF0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T00:09:59.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ControladorCliente.cs",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Controlodores\\ControladorCliente.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Controlodores\\ControladorCliente.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Controlodores\\ControladorCliente.cs",
-              "RelativeToolTip": "Ferreteria\\Controlodores\\ControladorCliente.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAuwFsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T23:48:15.734Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Form2.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form2.Designer.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Form2.Designer.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form2.Designer.cs",
-              "RelativeToolTip": "Ferreteria\\Form2.Designer.cs",
-              "ViewState": "AQIAALAAAAAAAAAAAAAuwMYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T23:49:09.039Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form2.cs",
-              "RelativeDocumentMoniker": "Ferreteria\\Form2.cs",
-              "ToolTip": "C:\\Users\\jhoel\\OneDrive\\Escritorio\\ProyectoTecnicasDeProgra\\Ferreteria\\Ferreteria\\Form2.cs",
-              "RelativeToolTip": "Ferreteria\\Form2.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAqwFAAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T23:48:52.724Z"
+              "WhenOpened": "2024-07-31T02:13:18.325Z",
+              "EditorCaption": ""
             }
           ]
         },

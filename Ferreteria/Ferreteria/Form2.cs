@@ -9,18 +9,36 @@ namespace Ferreteria
 {
     public partial class Form2 : Form
     {
+        //contorlador para manejar operaciones del cliente 
         private ControladorCliente controladorCliente;
 
+
+        /// <summary>
+        /// contructor formulario
+        /// </summary>
         public Form2()
         {
+
+            //incializa el controlador de los clientes
             InitializeComponent();
             controladorCliente = new ControladorCliente();
         }
 
+        /// <summary>
+        /// evento que carga la lista de clientes
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Form2_Load(object sender, EventArgs e)
         {
             CargarClientes();
         }
+
+        /// <summary>
+        /// boton para agregar el cliente
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
 
         private void btnSubmitCliente_Click(object sender, EventArgs e)
         {
@@ -38,7 +56,11 @@ namespace Ferreteria
             MessageBox.Show("Información del cliente guardada en el archivo CSV");
             CargarClientes();
         }
-
+        /// <summary>
+        /// boton para actualizar info del cliente
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnUpdateCliente_Click(object sender, EventArgs e)
         {
             Cliente cliente = new Cliente
@@ -55,7 +77,9 @@ namespace Ferreteria
             MessageBox.Show("Información del cliente actualizada en el archivo CSV");
             CargarClientes();
         }
-
+        /// <summary>
+        /// carga de clientes desde el csv
+        /// </summary>
         private void CargarClientes()
         {
             dgvClientes.DataSource = null;
@@ -63,6 +87,11 @@ namespace Ferreteria
             dgvClientes.DataSource = clientes;
         }
 
+        /// <summary>
+        /// evento para obtener los clientes en el data grid desde el csv 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void dgvClientes_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)

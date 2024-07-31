@@ -112,7 +112,7 @@
             btnUpdateCajero.UseVisualStyleBackColor = true;
             btnUpdateCajero.Click += btnUpdateCajero_Click;
             // 
-            // label1
+            // label Cajero ID
             // 
             label1.AutoSize = true;
             label1.Location = new Point(12, 15);
@@ -121,7 +121,7 @@
             label1.TabIndex = 9;
             label1.Text = "Cajero ID:";
             // 
-            // label2
+            // label Nombre
             // 
             label2.AutoSize = true;
             label2.Location = new Point(12, 48);
@@ -130,7 +130,7 @@
             label2.TabIndex = 10;
             label2.Text = "Nombre:";
             // 
-            // label3
+            // label Apellido1
             // 
             label3.AutoSize = true;
             label3.Location = new Point(12, 81);
@@ -139,7 +139,7 @@
             label3.TabIndex = 11;
             label3.Text = "Apellido 1:";
             // 
-            // label4
+            // label Apellido2
             // 
             label4.AutoSize = true;
             label4.Location = new Point(12, 114);
@@ -148,7 +148,7 @@
             label4.TabIndex = 12;
             label4.Text = "Apellido 2:";
             // 
-            // label5
+            // label Telefono
             // 
             label5.AutoSize = true;
             label5.Location = new Point(12, 147);
@@ -157,7 +157,7 @@
             label5.TabIndex = 13;
             label5.Text = "Teléfono:";
             // 
-            // label6
+            // label Correo
             // 
             label6.AutoSize = true;
             label6.Location = new Point(12, 180);

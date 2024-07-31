@@ -13,12 +13,17 @@ namespace Ferreteria.Controladores
         public ControladorCajero()
         {
             cajeros = new List<Cajero>();
+
+            //carga la lilsta desde el csv
             CargarCajerosDesdeCsv();
         }
 
+        //metodo para guardar el cajero nuevo en el csv
         public void AgregarCajero(Cajero cajero)
         {
             cajeros.Add(cajero);
+
+            //guarda la lista de cajeros en el csv
             GuardarCajerosEnCsv();
         }
 
@@ -36,11 +41,15 @@ namespace Ferreteria.Controladores
             }
         }
 
+
+        //metodo para actualizar el cajero en el csv
         public List<Cajero> ObtenerCajeros()
         {
             return cajeros;
         }
 
+
+        //metodo para guardar los cajeros en el csv
         private void GuardarCajerosEnCsv()
         {
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "cajeros.csv");
@@ -55,6 +64,8 @@ namespace Ferreteria.Controladores
             }
         }
 
+
+        //metodo para cargar la lista de cajeros ene l csv
         private void CargarCajerosDesdeCsv()
         {
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "cajeros.csv");
@@ -89,7 +100,7 @@ namespace Ferreteria.Controladores
                         }
                         else
                         {
-                            // Log or handle the error of incorrect CSV format
+                            // metodo de Log o handle del error del formato del csv
                             Console.WriteLine($"Skipping invalid line: {line}");
                         }
                     }
